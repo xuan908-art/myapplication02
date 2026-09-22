@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello TableLayout"
+        android:textSize="20sp"/>
+
+    <TableRow>
+        <TextView android:text="Open..." android:layout_weight="1"/>
+        <TextView android:text="Ctrl-o"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Save..." android:layout_weight="1"/>
+        <TextView android:text="Ctrl-s"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Save As..." android:layout_weight="1"/>
+        <TextView android:text="Ctrl-Shift-S"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Import..." android:layout_weight="1"/>
+        <TextView android:text="Ctrl-E"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Export..." android:layout_weight="1"/>
+        <TextView android:text=""/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Quit" android:layout_weight="1"/>
+        <TextView android:text=""/>
+    </TableRow>
+
+</TableLayout>
