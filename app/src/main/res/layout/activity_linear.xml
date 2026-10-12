@@ -3,26 +3,178 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="8dp">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="One,One"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Two,One"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Three,One"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Four,One"/>
+    <!-- 第一行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="One,Two"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Two,Two"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Three,Two"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Four,Two"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="One,One"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="One,Three"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Two,Three"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Three,Three"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Four,Three"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="One,Two"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="One,Four"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Two,Four"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Three,Four"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Four,Four"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="One,Three"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="One,Four"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <!-- 第二行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Two,One"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Two,Two"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Two,Three"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Two,Four"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <!-- 第三行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Three,One"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Three,Two"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Three,Three"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Three,Four"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <!-- 第四行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Four,One"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Four,Two"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Four,Three"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Four,Four"
+            android:gravity="center"
+            android:background="@android:drawable/box"
+            android:textSize="20sp"/>
+    </LinearLayout>
 
 </LinearLayout>
